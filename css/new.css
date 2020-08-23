@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+
+.clr {
+	clear: both;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.mojmul .img {
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	background-position: center !important;
+	height: 800px;
+	float: left;
+}

@@ -1,0 +1,60 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 02/07/2020 19:31
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-yoga-mat:before { content: "\f100"; }
+.flaticon-jumping-rope-silhouette:before { content: "\f101"; }
+.flaticon-boxing-fighter:before { content: "\f102"; }
+.flaticon-gymnast:before { content: "\f103"; }
+.flaticon-man-at-bar:before { content: "\f104"; }
+.flaticon-weight-lifting:before { content: "\f105"; }
+.flaticon-exercise:before { content: "\f106"; }
+.flaticon-yoga:before { content: "\f107"; }
+.flaticon-stretching-exercises:before { content: "\f108"; }
+.flaticon-dumbbell-lifter:before { content: "\f109"; }
+    
+    $font-Flaticon-yoga-mat: "\f100";
+    $font-Flaticon-jumping-rope-silhouette: "\f101";
+    $font-Flaticon-boxing-fighter: "\f102";
+    $font-Flaticon-gymnast: "\f103";
+    $font-Flaticon-man-at-bar: "\f104";
+    $font-Flaticon-weight-lifting: "\f105";
+    $font-Flaticon-exercise: "\f106";
+    $font-Flaticon-yoga: "\f107";
+    $font-Flaticon-stretching-exercises: "\f108";
+    $font-Flaticon-dumbbell-lifter: "\f109";
